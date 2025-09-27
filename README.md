@@ -1,6 +1,6 @@
 # AgenticAI-DeckMCP
 
-**AgenticAI-DeckMCP** is an **Agentic AI tool** with **Deck MCP Server support**, allowing you to interact with Kong Gateway via Deck commands or directly via the Admin API. The server exposes tools to dump, sync, diff, and convert Kong configurations, as well as add **basic-auth** and **key-auth** plugins to services or routes.
+**AgenticAI-DeckMCP** is an **Agentic AI tool** with **Deck MCP Server support**, allowing you to interact with Kong Gateway via Deck commands or directly via the Admin API. The server exposes tools to dump, sync, diff, and convert Kong configurations, as well as add plugins to services or routes.
 
 ---
 
@@ -43,7 +43,8 @@ node index.js
 The server will run on http://127.0.0.1:3000/mcp
 
 ### Configure Cursor
- 1.Open Cursor and create a file in `.cursor\mcp.json`
+ 1.Open Cursor and create a file in `.cursor\mcp.json`.
+ 
  2.Add a new server with the following configuration:
  ```bash
  {
