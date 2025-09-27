@@ -6,7 +6,7 @@
 
 ## Features
 
-- Run **Deck commands** via MCP server: `dump`, `sync`, `diff`, `openapi convert`
+- Run **Deck commands** via MCP server
 - Add **basic-auth** or **key-auth** plugin to **services** or **routes**
 - Compatible with **Kong 3.x**
 - Works with **Cursor** or any MCP-compatible client
@@ -43,7 +43,7 @@ node index.js
 The server will run on http://127.0.0.1:3000/mcp
 
 ### Configure Cursor
- 1.Open Cursor and create a file in .cursor\mcp.json
+ 1.Open Cursor and create a file in `.cursor\mcp.json`
  2.Add a new server with the following configuration:
  ```bash
  {
