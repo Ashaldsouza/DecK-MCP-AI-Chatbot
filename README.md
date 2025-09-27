@@ -71,8 +71,8 @@ Once the MCP server is running in Cursor:
 
 ### Notes 
 
-*Ensure Deck CLI is compatible with your Kong version (3.x or above)
+1.Ensure Deck CLI is compatible with your Kong version (3.x or above)
 
-*When adding plugins, either service_name or route_name must be provided
+2.When adding plugins, either service_name or route_name must be provided
 
-*For Cursor, always start the MCP server first before launching a session
+3.For Cursor, always start the MCP server first before launching a session
