@@ -67,4 +67,12 @@ Once the MCP server is running in Cursor:
 
   1.Open a new session
 
-  2.Check the available tools (deck_dump, deck_sync, deck_diff, deck_openapi_convert, deck_add_basic_auth, deck_add_key_auth)
+  2.Check the available tools (deck_dump, deck_sync, deck_diff, deck_openapi_convert, deck_add_basic_auth, deck_add_key_auth).
+
+### Notes 
+
+*Ensure Deck CLI is compatible with your Kong version (3.x or above)
+
+*When adding plugins, either service_name or route_name must be provided
+
+*For Cursor, always start the MCP server first before launching a session
