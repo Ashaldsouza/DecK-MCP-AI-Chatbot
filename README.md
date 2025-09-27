@@ -1,13 +1,14 @@
 # AgenticAI-DeckMCP
 
-**AgenticAI-DeckMCP** is an **Agentic AI tool** with **Deck MCP Server support**, allowing you to interact with Kong Gateway via Deck commands or directly via the Admin API. The server exposes tools to dump, sync, diff, and convert Kong configurations, as well as add plugins to services or routes.
+**AgenticAI-DeckMCP** is a powerful Agentic AI tool with integrated **Deck MCP Server** support that streamlines Kong Gateway management. It can take an API specification file, convert it into Deck format, and seamlessly sync routes, services, and upstreams—all without the need for manual curl commands. With **natural language prompts** and integration with Cursor, it makes configuring and managing Kong smoother, faster, and more intuitive than ever.
 
 ---
 
 ## Features
 
-- Run **Deck commands** via MCP server
-- Add **basic-auth** or **key-auth** plugin to **services** or **routes**
+- Convert **spec files** directly into **Deck** configurations and Run **Deck commands** via MCP server
+- Seamlessly sync **routes**, **services**, and **upstreams**
+- Apply **plugins** with a single natural language prompt
 - Compatible with **Kong 3.x**
 - Works with **Cursor** or any MCP-compatible client
 
