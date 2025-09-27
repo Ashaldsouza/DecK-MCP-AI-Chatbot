@@ -1,0 +1,24 @@
+{
+  "name": "mcp-deck-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deck MCP Server",
+  "main": "index.js",
+  "scripts": {
+    "build:clean": "rimraf dist",
+    "build": "npm run build:clean && mkdir dist && xcopy *.js dist /E /Y /I",
+    "inspect": "npx @modelcontextprotocol/inspector node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.1",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
