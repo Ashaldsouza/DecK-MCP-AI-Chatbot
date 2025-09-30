@@ -77,3 +77,8 @@ Once the MCP server is running in Cursor:
 2.When adding plugins, either service_name or route_name must be provided
 
 3.For Cursor, always start the MCP server first before launching a session
+
+---
+## Contributors
+Developed By : AshalP@verifone.com , AkashA@verifone.com<br>
+Designed By  : SatyajitS3@verifone.com, Prema.Namasivayam@verifone.com , RitikB1@verifone.com
