@@ -1,6 +1,6 @@
-# AgenticAI-DeckMCP
+# DecK-MCP-AI-Chatbot
 
-**AgenticAI-DeckMCP** is a powerful Agentic AI tool with integrated **Deck MCP Server** support that streamlines Kong Gateway management. It can take an API specification file, convert it into Deck format, and seamlessly sync routes, services, and upstreams—all without the need for manual curl commands. With **natural language prompts** and integration with Cursor, it makes configuring and managing Kong smoother, faster, and more intuitive than ever.
+**DecK-MCP-AI-Chatbot** is a powerful Agentic AI tool with integrated **Deck MCP Server** support that streamlines Kong Gateway management. It can take an API specification file, convert it into Deck format, and seamlessly sync routes, services, and upstreams—all without the need for manual curl commands. With **natural language prompts** and integration with Cursor, it makes configuring and managing Kong smoother, faster, and more intuitive than ever.
 
 ---
 
